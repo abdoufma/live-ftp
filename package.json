@@ -4,7 +4,7 @@
   "description": "A simple CLI tool to serve files on the network",
   "main": "index.js",
   "scripts": {
-    "push": "git add . && git commit -m \"minor patch\"",
+    "push": "git add . && git commit -m \"minor patch\" && git push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
