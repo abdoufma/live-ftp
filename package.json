@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/abdoufma/live-ftp#readme",
   "dependencies": {
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.2",
+    "serve-handler": "^6.1.5"
   }
 }
