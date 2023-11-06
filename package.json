@@ -13,7 +13,8 @@
     "url": "git+https://github.com/abdoufma/live-ftp.git"
   },
   "bin": {
-    "live-ftp": "bin/serve.js"
+    "live-ftp": "bin/serve.js",
+    "hello": "bin/hello.js"
   },
   "keywords": [
     "ftp",

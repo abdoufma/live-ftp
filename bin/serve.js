@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 // const liveServer = require("live-server");
 // const path = require("path");
 const handler = require('serve-handler');
