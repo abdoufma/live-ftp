@@ -4,11 +4,15 @@
   "description": "A simple CLI tool to serve files on the network",
   "main": "index.js",
   "scripts": {
+    "push": "git add . && git commit -m \"minor patch\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abdoufma/live-ftp.git"
+  },
+  "bin": {
+    "live-ftp": "bin/hello.js"
   },
   "keywords": [
     "ftp",
