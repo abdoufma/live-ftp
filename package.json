@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "push": "git add . && git commit -m \"minor patch\" && git push",
+    "deploy": "npm run push && npm version patch && npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,7 +13,7 @@
     "url": "git+https://github.com/abdoufma/live-ftp.git"
   },
   "bin": {
-    "live-ftp": "bin/hello.js"
+    "live-ftp": "bin/serve.js"
   },
   "keywords": [
     "ftp",
